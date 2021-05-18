@@ -1,0 +1,16 @@
+PODS:
+  - YCLocalized (0.1.0)
+
+DEPENDENCIES:
+  - YCLocalized (from `../`)
+
+EXTERNAL SOURCES:
+  YCLocalized:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YCLocalized: 13b3effcaebacb4d4a24466052bdf8891b01b8dd
+
+PODFILE CHECKSUM: 2de81dfa6d4525b51d521dc8c55f657ec314b21d
+
+COCOAPODS: 1.10.1

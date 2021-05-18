@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		70BA91BB2653C73100D962B0 /* LanguageChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA91B92653C73100D962B0 /* LanguageChangeViewController.swift */; };
+		70BA91BC2653C73100D962B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA91BA2653C73100D962B0 /* ViewController.swift */; };
+		70BA91C32653CEAF00D962B0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70BA91C52653CEAF00D962B0 /* Localizable.strings */; };
 		8B6C00391FC74ED5A62319B8 /* Pods_YCLocalized_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9E4222A95AD441B4F2D3CF /* Pods_YCLocalized_Example.framework */; };
 		927B4C504400D1E0A989A8BF /* Pods_YCLocalized_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80634C35DF66B3EDA89F8E58 /* Pods_YCLocalized_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -34,19 +36,28 @@
 		607FACD01AFB9204008FA782 /* YCLocalized_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCLocalized_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* YCLocalized_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCLocalized_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		70BA91B92653C73100D962B0 /* LanguageChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageChangeViewController.swift; sourceTree = "<group>"; };
+		70BA91BA2653C73100D962B0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70BA91BD2653CE7700D962B0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		70BA91BE2653CE7700D962B0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		70BA91BF2653CE8000D962B0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		70BA91C02653CE8000D962B0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		70BA91C42653CEAF00D962B0 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		70BA91C62653CEB300D962B0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		70BA91C72653CEB400D962B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		70BA91C82653CEB500D962B0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		80634C35DF66B3EDA89F8E58 /* Pods_YCLocalized_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCLocalized_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86843B93DE9665FC78E27B56 /* YCLocalized.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YCLocalized.podspec; path = ../YCLocalized.podspec; sourceTree = "<group>"; };
+		86843B93DE9665FC78E27B56 /* YCLocalized.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YCLocalized.podspec; path = ../YCLocalized.podspec; sourceTree = "<group>"; };
 		9339BA74951DACF374429682 /* Pods-YCLocalized_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCLocalized_Example.release.xcconfig"; path = "Target Support Files/Pods-YCLocalized_Example/Pods-YCLocalized_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9A2246C38D2475C5EE302834 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9A2246C38D2475C5EE302834 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C0346B5B79CC73E84BF86329 /* Pods-YCLocalized_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCLocalized_Tests.release.xcconfig"; path = "Target Support Files/Pods-YCLocalized_Tests/Pods-YCLocalized_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CAD3758A40A4DA8EEEB877C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CAD3758A40A4DA8EEEB877C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				70BA91B92653C73100D962B0 /* LanguageChangeViewController.swift */,
+				70BA91BA2653C73100D962B0 /* ViewController.swift */,
+				70BA91C52653CEAF00D962B0 /* Localizable.strings */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -147,7 +160,6 @@
 				2786B8DA9A23FCEACE1A7C45 /* Pods-YCLocalized_Tests.debug.xcconfig */,
 				C0346B5B79CC73E84BF86329 /* Pods-YCLocalized_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,8 +239,11 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
+				"zh-Hans",
+				de,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
@@ -247,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				70BA91C32653CEAF00D962B0 /* Localizable.strings in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -331,7 +347,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				70BA91BC2653C73100D962B0 /* ViewController.swift in Sources */,
+				70BA91BB2653C73100D962B0 /* LanguageChangeViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +376,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				607FACDA1AFB9204008FA782 /* Base */,
+				70BA91BD2653CE7700D962B0 /* zh-Hans */,
+				70BA91BF2653CE8000D962B0 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -367,8 +386,21 @@
 			isa = PBXVariantGroup;
 			children = (
 				607FACDF1AFB9204008FA782 /* Base */,
+				70BA91BE2653CE7700D962B0 /* zh-Hans */,
+				70BA91C02653CE8000D962B0 /* de */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		70BA91C52653CEAF00D962B0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70BA91C42653CEAF00D962B0 /* English */,
+				70BA91C62653CEB300D962B0 /* zh-Hans */,
+				70BA91C72653CEB400D962B0 /* en */,
+				70BA91C82653CEB500D962B0 /* de */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

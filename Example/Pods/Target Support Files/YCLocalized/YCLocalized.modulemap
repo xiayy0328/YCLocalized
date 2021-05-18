@@ -1,0 +1,6 @@
+framework module YCLocalized {
+  umbrella header "YCLocalized-umbrella.h"
+
+  export *
+  module * { export * }
+}

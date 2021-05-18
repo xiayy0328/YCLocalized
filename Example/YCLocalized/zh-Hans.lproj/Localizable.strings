@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  YCLocalized
+
+  Created by Xyy on 2021/5/18.
+  Copyright © 2021 CocoaPods. All rights reserved.
+*/
+
+"title" = "语言切换";
+"orangutan" = "猩猩";
+"monkey" = "猴子";
+"antelope" = "羚羊";
+"snow leopard" = "雪豹";
+"robot" = "机器人";
+"fighter" = "战斗机";
+"Back" = "返回";
