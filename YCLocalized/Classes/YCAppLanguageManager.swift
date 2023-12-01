@@ -81,12 +81,28 @@ extension YCAppLanguageManager {
 
     /// 获取默认的语言
     private func getDefaultLanguage() -> YCAppLanguage {
-        var preferredLanguageCode = Locale.preferredLanguages.first ?? "en"
+        var preferredLanguageCode = getPreferredLanguageCode()
         if let defaultLanguageCode = defaultLanguageCode {
             preferredLanguageCode = defaultLanguageCode
         }
         return YCAppLanguage(code: preferredLanguageCode)
     }
+    
+    /// 获取系统语言转换的Key
+    private func getPreferredLanguageCode() -> String {
+        guard let preferredLanguage = Locale.preferredLanguages.first else {
+            return "en"
+        }
+        /// 去除语言标识的时区字符zh-Hans-US去除-最后的字符
+        var preferredArr = preferredLanguage.components(separatedBy: "-")
+        if preferredArr.count > 2 {
+            preferredArr.removeLast()
+            return preferredArr.joined(separator: "-")
+        } else {
+            return preferredLanguage
+        }
+    }
+    
 }
 
 /// 本地化语言改变的通知
